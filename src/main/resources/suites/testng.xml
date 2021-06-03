@@ -2,9 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="BDD Test Suite" verbose="1" parallel="tests"
 	thread-count="5" configfailurepolicy="continue">
-	<test name="Test 1" annotations="JDK" preserve-order="true">
+	<test name="Test All" annotations="JDK" preserve-order="true">
 		<classes>
 			<class name="MyRunner.TestRunner" />
+		</classes>
+	</test>
+	<test name="Test just feature One" annotations="JDK" preserve-order="true">
+		<classes>
+			<class name="MyRunner.TestRunnerFeatureOne" />
 		</classes>
 	</test>
 </suite>
