@@ -4,7 +4,7 @@
 	thread-count="5" configfailurepolicy="continue">
 	<test name="Test All" annotations="JDK" preserve-order="true">
 		<classes>
-			<class name="MyRunner.TestRunner" />
+			<class name="MyRunner.TestRunnerFeatures" />
 		</classes>
 	</test>
 	<test name="Test just feature One" annotations="JDK" preserve-order="true">

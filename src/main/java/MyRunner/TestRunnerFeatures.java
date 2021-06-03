@@ -8,6 +8,6 @@ import cucumber.api.CucumberOptions;
         features = "src/main/java/features",
         glue = {"stepDefinitions"})
 
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunnerFeatures extends AbstractTestNGCucumberTests {
 
 }
